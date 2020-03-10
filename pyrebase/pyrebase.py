@@ -526,7 +526,7 @@ class ClosableSSEClient(SSEClient):
     def close(self):
         self.should_connect = False
         self.retry = 0
-        self.resp.raw._fp.fp.raw._sock.shutdown(socket.SHUT_RDWR)
+        self.resp.raw._fp.fp.raw._sock.shutdown()  # (socket.SHUT_RDWR)
         self.resp.raw._fp.fp.raw._sock.close()
 
 

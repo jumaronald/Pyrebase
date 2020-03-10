@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='Pyrebase',
-    version='3.0.27',
+    version='3.0.28',
     url='https://github.com/thisbejim/Pyrebase',
     description='A simple python wrapper for the Firebase API',
     author='James Childs-Maidment',
@@ -19,8 +19,8 @@ setup(
         'requests',
         'gcloud',
         'oauth2client',
-        'requests_toolbelt==0.7.0',
-        'python_jwt==2.0.1',
-        'pycryptodome==3.4.3'
+        'requests_toolbelt>=0.7',
+        'python_jwt>=3.2',
+        'pycryptodome>=3.4'
     ]
 )

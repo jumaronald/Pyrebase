@@ -1,6 +1,6 @@
 requests
 gcloud
 oauth2client
-requests-toolbelt==0.7.0
-python-jwt==2.0.1
-pycrypto==2.6.1
+requests-toolbelt>=0.7.0
+python-jwt>=3.2.6
+pycrypto>=2.6.1
