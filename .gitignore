@@ -1,8 +1,8 @@
 .DS_Store
 .idea
-Pyrebase.egg-info
+pyrebase5.egg-info
 build
-dist
+/dist
 test.py
 test.png
 run.py

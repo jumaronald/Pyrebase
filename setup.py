@@ -1,17 +1,17 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Pyrebase',
-    version='3.0.28',
-    url='https://github.com/thisbejim/Pyrebase',
+    name='pyrebase5',
+    version='5.0.1',
+    url='https://github.com/davidvartanian/Pyrebase',
     description='A simple python wrapper for the Firebase API',
     author='James Childs-Maidment',
     license='MIT',
     classifiers=[
-        'Development Status :: 3 - Alpha',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
-        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.7',
+        'Operating System :: OS Independent',
     ],
     keywords='Firebase',
     packages=find_packages(exclude=['tests']),
